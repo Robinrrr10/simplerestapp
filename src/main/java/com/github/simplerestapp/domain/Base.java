@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 import com.github.simplerestapp.entries.Health;
 
 @Path("/base")
-public class Basic {
+public class Base {
 
 	@Path("/healthCheck")
 	@GET

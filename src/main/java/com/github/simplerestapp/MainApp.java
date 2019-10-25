@@ -6,7 +6,8 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-import com.github.simplerestapp.domain.Basic;
+import com.github.simplerestapp.domain.Accounts;
+import com.github.simplerestapp.domain.Base;
 
 @ApplicationPath("v1")
 public class MainApp extends Application
@@ -16,7 +17,8 @@ public class MainApp extends Application
 	
 	public MainApp() {
 		System.out.println("Starting apps");
-		allApps.add(Basic.class);
+		allApps.add(Accounts.class);
+		allApps.add(Base.class);
 		System.out.println("Added all class in app");
 	}
 	
